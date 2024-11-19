@@ -1,11 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="drivermanagement.css" />
 </head>
+
 <body>
-    
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="headind">
+                <h1>Admin Dashboard</h1>
+            </div>
+            <div class="seard-bar">
+                <input type="search" name="search" />
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="profiles">
+                <i class="fa-solid fa-message"></i>
+                <i class="fa-solid fa-bell"></i>
+                <img src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png" alt="" />
+            </div>
+        </div>
+    </nav>
+
+    <section class="adminDashboard">
+        <div class="sidebar">
+            <div class="profile-text">
+                <img src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png" alt="" />
+                <div class="side-text">
+                    <h3>Mr Dee</h3>
+                    <p>dee@gmail.cm</p>
+                </div>
+            </div>
+
+            <div class="sidebar-links">
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <p>Driver Management</p>
+                </div>
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <p>Client Management</p>
+                </div>
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <p>Delivery Management</p>
+                </div>
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <p>Settings</p>
+                </div>
+                <p class="logout">Logout</p>
+            </div>
+        </div>
+
+        <div class="right-side-boxes">
+            <p>Welcome Admin</p>
+
+            <div class="boxes">
+                <div class="box">
+                    <div class="box-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <p>Manage drivers</p>
+                </div>
+                <div class="box">
+                    <div class="box-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <p>Assign deliveries</p>
+                </div>
+                <div class="box">
+                    <div class="box-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <p>Monitor Performance</p>
+                </div>
+
+            </div>
+            <div class="tables">
+                <div class="table">
+                    <div class="table-head">
+                        <div class="table-head-right">
+                            <h1>Driver Management</h1>
+                            <p>
+                                Manage all aspects of your drivers, including assignments,
+                                profiles, and schedules
+                            </p>
+                        </div>
+                        <div class="table-right-btn">
+                            <div class="add-icon">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <button>Add User</button>
+                        </div>
+                    </div>
+                    <div class="table-headings">
+                        <p>Driver Name</p>
+                        <p>Availability</p>
+                        <p>Assignments</p>
+                        <p>Performance</p>
+                        <p>Actions</p>
+                    </div>
+                    <div class="table-data">
+                        <div class="table-headings">
+                            <p>Driver Name</p>
+                            <p>Availability</p>
+                            <p>Assignments</p>
+                            <p>Performance</p>
+                            <div class="actions">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </div>
+                        </div>
+                        <div class="table-headings">
+                            <p>Driver Name</p>
+                            <p>Availability</p>
+                            <p>Assignments</p>
+                            <p>Performance</p>
+                            <div class="actions">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </div>
+                        </div>
+                        <div class="table-headings">
+                            <p>Driver Name</p>
+                            <p>Availability</p>
+                            <p>Assignments</p>
+                            <p>Performance</p>
+                            <div class="actions">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </div>
+                        </div>
+                        <div class="table-headings">
+                            <p>Driver Name</p>
+                            <p>Availability</p>
+                            <p>Assignments</p>
+                            <p>Performance</p>
+                            <div class="actions">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="driver-information">
+                    <p>Driver information</p>
+                    <img src="./assets//Ellipse 327.png" alt="">
+                    <div class="information">
+                        <div class="heading">
+                            <p>Name</p>
+                            <p>Email </p>
+                            <p>Phone</p>
+                            <p>Company</p>
+                        </div>
+                        <div class="heading-value">
+                            <p>Dee</p>
+                            <p>client@example.com </p>
+                            <p>+12234556766743</p>
+                            <p>if applicable</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tables">
+                <div class="driver-information">
+                    <p>Performance</p>
+                    <div class="performance">
+                        <div class="p-circle">
+                            <p>95%</p>
+                        </div>
+
+
+                        <div class="p-content">
+                            <p>on-time</p>
+                            <p class="silver">perfect</p>
+                            <p>Customer rating</p>
+                            <p class="silver">4.8</p>
+                        </div>
+                      
+                    </div>
+                    
+                    <div class="delivery">
+                        <p>delivery</p>
+                        <p>1 (08/14)</p>
+                    </div>
+                    <div class="delivery">
+                        <p>delivery</p>
+                        <p>1 (08/14)</p>
+                    </div>
+                    </div>
+                    <div class="table table-b">
+                        <div class="table-head">
+                            <div class="table-head-right">
+                                <h1>Driver Management</h1>
+                                <p>
+                                    Manage all aspects of your drivers, including assignments,
+                                    profiles, and schedules
+                                </p>
+                            </div>
+                            <div class="table-right-btn">
+                                <div class="add-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                                <button>Add User</button>
+                            </div>
+                        </div>
+                        <div class="table-headings">
+                            <p>Driver Name</p>
+                            <p>Availability</p>
+                            <p>Assignments</p>
+                            <p>Performance</p>
+                            <p>Actions</p>
+                        </div>
+                        <div class="table-data">
+                            <div class="table-headings">
+                                <p>Driver Name</p>
+                                <p>Availability</p>
+                                <p>Assignments</p>
+                                <p>Performance</p>
+                                <div class="actions">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </div>
+                            </div>
+                            <div class="table-headings">
+                                <p>Driver Name</p>
+                                <p>Availability</p>
+                                <p>Assignments</p>
+                                <p>Performance</p>
+                                <div class="actions">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </div>
+                            </div>
+                            <div class="table-headings">
+                                <p>Driver Name</p>
+                                <p>Availability</p>
+                                <p>Assignments</p>
+                                <p>Performance</p>
+                                <div class="actions">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </div>
+                            </div>
+                            <div class="table-headings">
+                                <p>Driver Name</p>
+                                <p>Availability</p>
+                                <p>Assignments</p>
+                                <p>Performance</p>
+                                <div class="actions">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
 </body>
+
 </html>
