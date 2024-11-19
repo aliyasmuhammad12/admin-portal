@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-main {
+  /* position: relative; */
+  display: flex;
+  gap: 66px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.login-left {
+  /* position: absolute; */
+
+  /* transform: translate(50%, 50%); */
+  height: 100vh;
+  width: 600px;
+  border-radius: 0 800px 800px 0;
+  background-color: #f0f0f0;
+}
+.login-left .login-image {
+  padding-top: 150px;
+}
+.login-left .login-image img {
+  width: 590px;
+  height: 305px;
+}
+.login-right {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 700px;
+  height: 608px;
+  padding: 44px 60px;
+}
+.login-right .form-text {
+  margin-bottom: 63px;
+}
+.login-right .form-text h1 {
+  color: #004f98;
+  font-size: 30px;
+}
+.login-right .form-text p {
+  color: #787878;
+  font-size: 15px;
+  max-width: 266px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form .form-input {
+  box-shadow: 0px 8.36px 31.79px 0px #0000001a;
+  border: 0.84px solid #f1f1f1;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  height: 49px;
+  padding: 15px 24px;
+  font-size: 12px;
+}
+form .password {
+  outline: none;
+  text-decoration: none;
+  border: none;
+  /* padding: 15px 30px;  */
+  padding: 5px;
+  /* height: 40px; */
+}
+form .form-password {
+  box-shadow: 0px 8.36px 31.79px 0px #0000001a;
+  border: 0.84px solid #f1f1f1;
+  /* color:#FFFFFF; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  height: 49px;
+  padding: 15px 24px;
+  font-size: 12px;
+}
+.form-password .fa-eye {
+  color: blue;
+}
+form .forget-pass {
+  text-align: right;
+  text-decoration: none;
+  color: #787878;
+  font-size: 12px;
+}
+.login-button {
+  /* padding: 13px 55px; */
+  box-shadow: 0px 8.36px 31.79px 0px #004f9854;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+
+  border: 0.84px solid #004f98;
+  color: #ffffff;
+  width: 150px;
+  height: 47px;
+  background: #004f98;
+  border-radius: 83px;
+}
+form .Language {
+  text-align: center;
+  font-size: 12px;
+}
+form .Language a {
+  outline: none;
+  text-decoration: none;
+  border: none;
+  /* padding: 15px 30px;  */
+  padding: 5px;
+  color: #004f98;
+}
