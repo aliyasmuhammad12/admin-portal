@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../profileDashboard/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <h1>Logo</h1>
+        </div>
+        <div class="headind">
+          <h1>Admin Dashboard</h1>
+        </div>
+        <div class="seard-bar">
+          <input type="search" name="search" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="profiles">
+          <i class="fa-solid fa-message"></i>
+          <i class="fa-solid fa-bell"></i>
+          <img
+            src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </nav>
+
+    <section class="adminDashboard">
+      <div class="sidebar">
+        <div class="profile-text">
+          <img
+            src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png"
+            alt=""
+          />
+          <div class="side-text">
+            <h3>Mr Dee</h3>
+            <p>dee@gmail.cm</p>
+          </div>
+        </div>
+
+        <div class="sidebar-links">
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <p><a href="/adminPortal/drivermanagement/drivermanagement.html">Driver Management</a></p>
+          </div>
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <p><a href="/adminPortal/clientDashboard/clientDashboard.html">Client Management</a></p>
+          </div>
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-solid fa-truck"></i>
+            </div>
+            <p><a href="/adminPortal/deliveryDashboard/deliveryDashboard.html">Delivery Management</a></p>
+          </div>
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-solid fa-gear"></i>
+            </div>
+            <p><a href="/adminPortal/profile/profile.html">Settings</a></p>
+          </div>
+          <p class="logout">Logout</p>
+        </div>
+      </div>
+
+      <div class="right-side-boxes">
+        <p>Profile information</p>
+        <div class="form-container">
+            <h2 class="section-title">Company Details</h2>
+            
+            <div class="form-grid">
+                <div class="form-group">
+                    <label class="form-label">Company Name</label>
+                    <input type="text" class="form-input" placeholder="Your First Name">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Address</label>
+                    <input type="text" class="form-input" placeholder="Address">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Phone</label>
+                    <input type="tel" class="form-input" placeholder="Phone">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-input" placeholder="Email">
+                </div>
+            </div>
+    
+            <div class="settings-section">
+                <h2 class="section-title">Settings</h2>
+                <div class="notification-preferences">Notification Preferences</div>
+                
+                <div class="notification-options">
+                    <button class="notification-button">
+                        <span>📧</span> Email Notifications
+                    </button>
+                    <button class="notification-button">
+                        <span>📱</span> SMS Notifications
+                    </button>
+                    <div class="frequency-options">
+                        <button class="frequency-button active">Daily</button>
+                        <button class="frequency-button">Weekly</button>
+                        <button class="frequency-button">Monthly</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="account-section">
+                <h2 class="section-title">Account Management</h2>
+                
+                <div class="form-group">
+                    <label class="form-label">Change Email</label>
+                    <input type="email" class="form-input" placeholder="Address">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Change Phone Number</label>
+                    <input type="tel" class="form-input" placeholder="Email">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Change Password</label>
+                    <input type="password" class="form-input" placeholder="Email">
+                </div>
+            </div>
+    
+            <button class="save-button">Save Now</button>
+        </div>
+       
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
