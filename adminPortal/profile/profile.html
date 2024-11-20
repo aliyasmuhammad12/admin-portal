@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./profile.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="headind">
+                <h1>Admin Dashboard</h1>
+            </div>
+            <div class="seard-bar">
+                <input type="search" name="search" />
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="profiles">
+                <i class="fa-solid fa-message"></i>
+                <i class="fa-solid fa-bell"></i>
+                <img src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png" alt="" />
+            </div>
+        </div>
+    </nav>
+
+    <section class="adminDashboard">
+        <div class="sidebar">
+            <div class="profile-text">
+                <img src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png" alt="" />
+                <div class="side-text">
+                    <h3>Mr Dee</h3>
+                    <p>dee@gmail.cm</p>
+                </div>
+            </div>
+
+            <div class="sidebar-links">
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <p>Driver Management</p>
+                </div>
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <p>Client Management</p>
+                </div>
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <p>Delivery Management</p>
+                </div>
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <p>Settings</p>
+                </div>
+                <p class="logout">Logout</p>
+            </div>
+        </div>
+
+        <div class="right-side-boxes">
+            <p>Welcome Admin</p>
+            <div class="container">
+                <h1>Profile</h1>
+                <p class="date">Welcome, Dee</p>
+                <p class="date">Tue, 07 June 2022</p>
+                
+                <div class="blue-bar"></div>
+                
+                <div class="profile-info">
+                    <img src="../drivermanagement//assets/Ellipse 327.png" class="profile-pic">
+                    <div>
+                        <div class="profile-name">Riya</div>
+                        <div class="profile-email">reeyokdesign@gmail.com</div>
+                    </div>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" placeholder="Your First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="nickName">Nick Name</label>
+                        <input type="text" id="nickName" placeholder="Your First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <select id="gender">
+                            <option value="">Your First Name</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select id="country">
+                            <option value="">Your First Name</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="language">Language</label>
+                        <select id="language">
+                            <option value="">Your First Name</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="timeZone">Time Zone</label>
+                        <select id="timeZone">
+                            <option value="">Your First Name</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="email-section">
+                    <h2>My email Address</h2>
+                    <div class="email-item">
+                        <div class="email-icon"></div>
+                        <div>
+                            <div>alexcrawley@gmail.com</div>
+                            <div class="date">1 month ago</div>
+                        </div>
+                    </div>
+                    <button class="add-email">+ Add Email Address</button>
+                </div>
+            </div>
+        </div>
+            
+
+        </div>
+    </section>
+</body>
+
+</html>
