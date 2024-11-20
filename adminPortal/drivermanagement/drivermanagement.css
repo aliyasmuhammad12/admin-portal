@@ -448,3 +448,162 @@ section .sidebar {
   justify-content: start;
   gap: 34px;
 }
+.dashboard {
+  width: 503px;
+  height: 350px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px 0 0 0;
+  padding: 15px;
+  
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.dashboard h1 {
+  margin: 0 0 15px 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  height: calc(100% - 45px);
+}
+
+.calendar-section {
+  flex: 1;
+  min-width: 0;
+}
+
+.calendar-section h2,
+.assignments-section h2 {
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+
+.month-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.months {
+  display: flex;
+  gap: 12px;
+}
+
+.month {
+  font-size: 13px;
+}
+
+.month.active {
+  font-weight: 500;
+}
+
+.month.inactive {
+  color: #999;
+}
+
+.nav-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 4px;
+  color: #666;
+}
+
+.calendar-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-size: 11px;
+  color: #666;
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  font-size: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.date.inactive {
+  color: #ccc;
+}
+
+.date.highlight-blue {
+  color: #4285f4;
+}
+
+.date.highlight-orange {
+  background-color: #ff9800;
+  color: white;
+}
+
+.date.highlight-purple {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.date.range {
+  background-color: #4285f4;
+  color: white;
+  border-radius: 0;
+}
+
+.date.range:first-of-type {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.date.range:last-of-type {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.assignments-section {
+  width: 180px;
+}
+
+.assignment-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.assignment-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-card .number {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.assignment-card .label {
+  font-size: 14px;
+  color: #666;
+}
