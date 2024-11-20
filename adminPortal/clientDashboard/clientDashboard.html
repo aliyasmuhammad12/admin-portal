@@ -1,11 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="clientDashboard.css" />
 </head>
+
 <body>
-    
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="headind">
+                <h1>Admin Dashboard</h1>
+            </div>
+            <div class="seard-bar">
+                <input type="search" name="search" />
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="profiles">
+                <i class="fa-solid fa-message"></i>
+                <i class="fa-solid fa-bell"></i>
+                <img src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png" alt="" />
+            </div>
+        </div>
+    </nav>
+
+    <section class="adminDashboard">
+        <div class="sidebar">
+            <div class="profile-text">
+                <img src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png" alt="" />
+                <div class="side-text">
+                    <h3>Mr Dee</h3>
+                    <p>dee@gmail.cm</p>
+                </div>
+            </div>
+
+            <div class="sidebar-links">
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <p>Driver Management</p>
+                </div>
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <p>Client Management</p>
+                </div>
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <p>Delivery Management</p>
+                </div>
+                <div class="links">
+                    <div class="links-icon">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <p>Settings</p>
+                </div>
+                <p class="logout">Logout</p>
+            </div>
+        </div>
+
+        <div class="right-side-boxes">
+            <p>Welcome Admin</p>
+            
+                    <div class="container">
+                        <div class="client-section">
+                            <div class="header">
+                                <div class="title">
+                                    <h1>Client Management</h1>
+                                    <p>Oversee client accounts and interactions</p>
+                                </div>
+                                <button class="add-user">Add User</button>
+                            </div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Client Name</th>
+                                        <th>Contact Info</th>
+                                        <th>Recent Activity</th>
+                                        <th>Requests</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Client 1</td>
+                                        <td>+1234567890</td>
+                                        <td>Last Call: 08/14 | 2</td>
+                                        <td><a href="#" class="manage-link">Manage Requests</a></td>
+                                        <td>
+                                            <div class="actions">
+                                                <button class="action-btn">✎</button>
+                                                <button class="action-btn">🗑</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Client 1</td>
+                                        <td>+1234567890</td>
+                                        <td>Last Call: 08/14 | 2</td>
+                                        <td><a href="#" class="manage-link">Manage Requests</a></td>
+                                        <td>
+                                            <div class="actions">
+                                                <button class="action-btn">✎</button>
+                                                <button class="action-btn">🗑</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Client 1</td>
+                                        <td>+1234567890</td>
+                                        <td>Last Call: 08/14 | 2</td>
+                                        <td><a href="#" class="manage-link">Manage Requests</a></td>
+                                        <td>
+                                            <div class="actions">
+                                                <button class="action-btn">✎</button>
+                                                <button class="action-btn">🗑</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Client 1</td>
+                                        <td>+1234567890</td>
+                                        <td>Last Call: 08/14 | 2</td>
+                                        <td><a href="#" class="manage-link">Manage Requests</a></td>
+                                        <td>
+                                            <div class="actions">
+                                                <button class="action-btn">✎</button>
+                                                <button class="action-btn">🗑</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                
+                        <div class="notes-section">
+                            <div class="notes-header">
+                                <h2>Notes</h2>
+                                <a href="#" class="add-note">Add Note +</a>
+                            </div>
+                            <div class="note">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur. Mauris platea amet ac gravida egestas iaculis sit.</p>
+                            </div>
+                            <div class="note">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur. Mauris platea amet ac gravida egestas iaculis sit.</p>
+                            </div>
+                            <a href="#" class="see-more">See More</a>
+                        </div>
+                    </div>
+                    <div class="cd-container">
+                        <div class="cd-layout">
+                            <div class="cd-main-section">
+                                <div class="cd-panel">
+                                    <div class="cd-panel-header">
+                                        <h2 class="cd-panel-title">Client Information</h2>
+                                        <a href="#" class="cd-button">See More</a>
+                                    </div>
+                                    <div class="cd-client-grid">
+                                        <div class="cd-client-card">
+                                            <img src="/adminPortal//clientDashboard/assets/Ellipse 327.png" alt="Client" class="cd-client-photo">
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Client Name</span>
+                                                <span class="cd-value">Dee</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Email</span>
+                                                <span class="cd-value">client@example.com</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Phone</span>
+                                                <span class="cd-value">+12234556766743</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Company Name</span>
+                                                <span class="cd-value">If applicable</span>
+                                            </div>
+                                        </div>
+                                        <div class="cd-client-card">
+                                            <img src="/adminPortal//clientDashboard/assets/Ellipse 327.png" alt="Client" class="cd-client-photo">
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Client Name</span>
+                                                <span class="cd-value">Dee</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Email</span>
+                                                <span class="cd-value">client@example.com</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Phone</span>
+                                                <span class="cd-value">+12234556766743</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Company Name</span>
+                                                <span class="cd-value">If applicable</span>
+                                            </div>
+                                        </div>
+                                        <div class="cd-client-card">
+                                            <img src="/adminPortal//clientDashboard/assets/Ellipse 327.png" alt="Client" class="cd-client-photo">
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Client Name</span>
+                                                <span class="cd-value">Dee</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Email</span>
+                                                <span class="cd-value">client@example.com</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Phone</span>
+                                                <span class="cd-value">+12234556766743</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Company Name</span>
+                                                <span class="cd-value">If applicable</span>
+                                            </div>
+                                        </div>
+                                        <div class="cd-client-card">
+                                            <img src="/adminPortal//clientDashboard/assets/Ellipse 327.png" alt="Client" class="cd-client-photo">
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Client Name</span>
+                                                <span class="cd-value">Dee</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Email</span>
+                                                <span class="cd-value">client@example.com</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Phone</span>
+                                                <span class="cd-value">+12234556766743</span>
+                                            </div>
+                                            <div class="cd-info-row">
+                                                <span class="cd-label">Company Name</span>
+                                                <span class="cd-value">If applicable</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="cd-sidebar">
+                                <div class="cd-panel">
+                                    <div class="cd-panel-header">
+                                        <h2 class="cd-panel-title">Recent Interactions</h2>
+                                        <span class="cd-filter-icon">⚙️</span>
+                                    </div>
+                                    <div class="cd-interaction">
+                                        <div class="cd-interaction-title">Phone Call</div>
+                                        <div class="cd-interaction-date">08/12/2024</div>
+                                        <div class="cd-interaction-desc">Discussed delivery issues</div>
+                                    </div>
+                                    <div class="cd-interaction">
+                                        <div class="cd-interaction-title">Email</div>
+                                        <div class="cd-interaction-date">08/12/2024</div>
+                                        <div class="cd-interaction-desc">Sent project proposal</div>
+                                    </div>
+                                    <div class="cd-interaction">
+                                        <div class="cd-interaction-title">Meeting</div>
+                                        <div class="cd-interaction-date">08/12/2024</div>
+                                        <div class="cd-interaction-desc">Initial project discussion</div>
+                                    </div>
+                                </div>
+                
+                                <div class="cd-panel" style="margin-top: 20px;">
+                                    <h2 class="cd-panel-title">Service History</h2>
+                                    <div class="cd-service">
+                                        <div class="cd-service-title">Logistics Management</div>
+                                        <div class="cd-service-status">Completed 08/10</div>
+                                    </div>
+                                    <div class="cd-service">
+                                        <div class="cd-service-title">Express Delivery</div>
+                                        <div class="cd-service-status">Ongoing 08/14</div>
+                                    </div>
+                                    <div class="cd-service">
+                                        <div class="cd-service-title">Bulk Order Fulfillment</div>
+                                        <div class="cd-service-status">Scheduled 08/20</div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+
+    </section>
 </body>
+
 </html>
