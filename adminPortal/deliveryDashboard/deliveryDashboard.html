@@ -1,11 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delivery Dashboard</title>
+    <link rel="stylesheet" href="delivery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <h1>Logo</h1>
+        </div>
+        <div class="headind">
+          <h1>Admin Dashboard</h1>
+        </div>
+        <div class="seard-bar">
+          <input type="search" name="search" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="profiles">
+          <i class="fa-solid fa-message"></i>
+          <i class="fa-solid fa-bell"></i>
+          <img
+            src="/adminPortal/deliveryDashboard/assets/Ellipse 22.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </nav>
+    <section class="deliveryDashboard">
+      <div class="sidebar">
+        <div class="profile-text">
+          <img
+            src="/adminPortal/deliveryDashboard/assets/Ellipse 22.png"
+            alt=""
+          />
+          <div class="side-text">
+            <h3>Mr Dee</h3>
+            <p>dee@gmail.cm</p>
+          </div>
+        </div>
+
+        <div class="sidebar-links">
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <p>Driver Management</p>
+          </div>
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <p>Client Management</p>
+          </div>
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-solid fa-truck"></i>
+            </div>
+            <p>Delivery Management</p>
+          </div>
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-solid fa-gear"></i>
+            </div>
+            <p>Settings</p>
+          </div>
+          <p class="logout">Logout</p>
+        </div>
+      </div>
+
+      <div class="right-side-boxes">
+        <p>Welcome Admin</p>
+        <div class="boxes">
+          <div class="box">
+            <div class="box-icon">
+              <i class="fa-solid fa-location-crosshairs"></i>
+            </div>
+            <p>Track and manage delivery</p>
+          </div>
+          <div class="box">
+            <div class="box-icon">
+              <i class="fa-solid fa-desktop"></i>
+            </div>
+            <p>Monitor progress</p>
+          </div>
+          <div class="box">
+            <div class="box-icon">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <p>Timely execution</p>
+          </div>
+        </div>
+        <div class="tables">
+          <div class="table">
+            <div class="table-head">
+              <div class="table-head-right">
+                <h1>Delivery List</h1>
+              </div>
+              <div class="search-filter">
+                <div class="search-bar">
+                  <input type="search" name="search" />
+                  <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+                <div class="filter">
+                  <p>Filter :</p>
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+              </div>
+            </div>
+            <p class="delivery-para">
+              Manage all aspects of your drivers, including assignments,
+              profiles, and schedules
+            </p>
+            <div class="table-headings">
+              <p>Driver Name</p>
+              <p>Availability</p>
+              <p>Assignments</p>
+              <p>Performance</p>
+              <p>Actions</p>
+            </div>
+            <div class="table-data">
+              <div class="table-headings">
+                <p>Driver Name</p>
+                <p>Availability</p>
+                <p>Assignments</p>
+                <p>Performance</p>
+                <div class="actions">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                  <i class="fa-solid fa-trash-can"></i>
+                </div>
+              </div>
+              <div class="table-headings">
+                <p>Driver Name</p>
+                <p>Availability</p>
+                <p>Assignments</p>
+                <p>Performance</p>
+                <div class="actions">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                  <i class="fa-solid fa-trash-can"></i>
+                </div>
+              </div>
+              <div class="table-headings">
+                <p>Driver Name</p>
+                <p>Availability</p>
+                <p>Assignments</p>
+                <p>Performance</p>
+                <div class="actions">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                  <i class="fa-solid fa-trash-can"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard">
+          <div class="card">
+            <h2 class="card-title">Delivery Details View</h2>
+            <div class="map-main">
+              <div class="map-left">
+                <div class="map-heading">
+                  <p>Client: ABC Corp</p>
+                  <p>Driver: John Doe</p>
+                  <img
+                    src="/adminPortal/deliveryDashboard/assets/Rectangle 7136.png"
+                    alt="Delivery route map"
+                    class="map-image"
+                  />
+                  <div class="map-view-text">Map View</div>
+                </div>
+              </div>
+              <div class="map-right">
+                <div class="items-list">
+                  <p>Items</p>
+                  <p>Item 1 (Qty: 2)</p>
+                  <p>Item 2 (Qty: 5)</p>
+                </div>
+
+                <p class="add-note">Add Note</p>
+                <textarea
+                  class="note-input"
+                  placeholder="Enter your note here..."
+                ></textarea>
+                <button class="add-note-btn">Add Note</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">Status Summary</h2>
+
+            <div class="status-item">
+              <div class="status-label">
+                <span>Total Deliveries:</span>
+                <span>100</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill p90"></div>
+              </div>
+            </div>
+
+            <div class="status-item">
+              <div class="status-label">
+                <span>Delayed Deliveries:</span>
+                <span>5</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill p70"></div>
+              </div>
+            </div>
+
+            <div class="status-item">
+              <div class="status-label">
+                <span>Performance:</span>
+                <span>90% On-Time</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill p90"></div>
+              </div>
+            </div>
+
+            <div class="status-item">
+              <div class="status-label">
+                <span>Avg. Delivery Time:</span>
+                <span>45 mins</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill p80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
