@@ -154,7 +154,10 @@ section .sidebar {
   /* top: 0; */
 }
 
-
+.right-side-boxes{
+  margin-top: 90px;
+  width: 1100px;
+}
 .form-container {
     max-width: 1200px;
     margin: 0 auto;
