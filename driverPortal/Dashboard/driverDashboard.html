@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Driver Dashboard</title>
+    <link rel="stylesheet" href="driverDashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="headind">
+                <h1>Driver Dashboard</h1>
+            </div>
+            <div class="seard-bar">
+                <input type="search" name="search" />
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="profiles">
+                <i class="fa-solid fa-message"></i>
+                <i class="fa-solid fa-bell"></i>
+                <img src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png" alt="" />
+            </div>
+        </div>
+    </nav>
+    <section class="driverDashboard">
+      <div class="sidebar">
+        <div class="profile-text">
+          <img
+            src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png"
+            alt=""
+          />
+          <div class="side-text">
+            <h3>Mr Dee</h3>
+            <p>dee@gmail.cm</p>
+          </div>
+        </div>
+
+        <div class="sidebar-links">
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <p>
+              <a href="/driverPortal/Dashboard/driverDashboard.html"
+                >Dashboard</a
+              >
+            </p>
+          </div>
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <p>
+              <a href="/driverPortal/deliverDashboard/deliverDashboard.html"
+                >Deliveries</a
+              >
+            </p>
+          </div>
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-solid fa-truck"></i>
+            </div>
+            <p>
+              <a href="/driverPortal/recentDeliveries/index.html"
+                >Message</a
+              >
+            </p>
+          </div>
+          <div class="links">
+            <div class="links-icon">
+              <i class="fa-solid fa-gear"></i>
+            </div>
+            <p><a href="/driverPortal/profileDashboard/index.html">Settings</a></p>
+          </div>
+          <p class="logout">Logout</p>
+        </div>
+      </div>
+
+      <div class="driver-page">
+        <div class="driver-main-box">
+          <div class="track-left">
+            <div class="uper-track">
+              <div class="uper-heading">
+                <p>Track Drivers</p>
+                <div class="truck-icon">
+                  <i class="fa-regular fa-user"></i>
+                </div>
+              </div>
+              <div class="maps">
+                <img src="./assets/Ellipse 1727.png" alt="" />
+                <p>Mapping</p>
+              </div>
+            </div>
+            <div class="lower-track">
+              <p>Driver Status</p>
+              <div class="table-right-btn">
+                <div class="add-icon">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <button>Active</button>
+              </div>
+              <div class="table-right-btn">
+                <div class="add-icon">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <button>Active</button>
+              </div>
+              <div class="table-right-btn">
+                <div class="add-icon">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <button>Active</button>
+              </div>
+            </div>
+          </div>
+          <div class="track-right">
+            <img
+              src="/driverPortal/Dashboard/assets/1000_F_233600419_7OoZaV9t2MleJwfbWpJK2VUUmTJRtFNr-removebg-preview 1.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="container-left">
+            <div class="table">
+              <div class="table-head">
+                <div class="table-head-right">
+                  <div class="create">
+                    <h1>Driver Management</h1>
+                    <div class="links-icon">
+                      <i class="fa-solid fa-truck"></i>
+                    </div>
+                  </div>
+
+                  <p>
+                    Manage all aspects of your drivers, including assignments,
+                    profiles, and schedules
+                  </p>
+                </div>
+                <div class="table-right-btn">
+                  <div class="add-icon">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <button>Add User</button>
+                </div>
+              </div>
+              <div class="table-headings">
+                <p>Driver Name</p>
+                <p>Availability</p>
+                <p>Assignments</p>
+                <p>Performance</p>
+                <p>Actions</p>
+              </div>
+              <div class="table-data">
+                <div class="table-headings">
+                  <p>Driver Name</p>
+                  <p>Availability</p>
+                  <p>Assignments</p>
+                  <p>Performance</p>
+                  <div class="actions">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <i class="fa-solid fa-trash-can"></i>
+                  </div>
+                </div>
+                <div class="table-headings">
+                  <p>Driver Name</p>
+                  <p>Availability</p>
+                  <p>Assignments</p>
+                  <p>Performance</p>
+                  <div class="actions">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <i class="fa-solid fa-trash-can"></i>
+                  </div>
+                </div>
+                <div class="table-headings">
+                  <p>Driver Name</p>
+                  <p>Availability</p>
+                  <p>Assignments</p>
+                  <p>Performance</p>
+                  <div class="actions">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <i class="fa-solid fa-trash-can"></i>
+                  </div>
+                </div>
+                <div class="table-headings">
+                  <p>Driver Name</p>
+                  <p>Availability</p>
+                  <p>Assignments</p>
+                  <p>Performance</p>
+                  <div class="actions">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <i class="fa-solid fa-trash-can"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-b">
+              <div class="card-header">
+                <h2 class="card-title">Messaging Overview</h2>
+                <a href="#" style="text-decoration: none; color: #0056b3"
+                  >View All</a
+                >
+              </div>
+              <div class="message-item">
+                <img
+                  src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png"
+                  alt="Jill"
+                  class="message-avatar"
+                />
+                <div class="message-content">
+                  <div class="message-name">Jill</div>
+                  <div class="message-text">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </div>
+                </div>
+              </div>
+              <div class="message-item">
+                <img
+                  src="/adminPortal/adminDashboard/admindadhAssets/Ellipse 22.png"
+                  alt="Dee"
+                  class="message-avatar"
+                />
+                <div class="message-content">
+                  <div class="message-name">Dee</div>
+                  <div class="message-text">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <!-- <div class="card-header">
+              <h2 class="card-title">Recent Deliveries</h2>
+              <p class="card-subtitle">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+            </div>
+            <div class="search-container">
+              <input
+                type="text"
+                class="search-input"
+                placeholder="Search for the Delivery"
+              />
+              <span class="search-icon">🔍</span>
+            </div> -->
+            <div class="table">
+                <div class="table-head">
+                  <div class="table-head-right">
+                    <h1>Driver Management</h1>
+                    <p>
+                      Manage all aspects of your drivers, including assignments,
+                      profiles, and schedules
+                    </p>
+                  </div>
+                 
+                  <!-- <div class="table-right-btn">
+                    <div class="add-icon">
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <button>Add User</button>
+                  </div> -->
+                </div>
+                <div class="driver-search">
+                    <p>Search for the Delivery</p>
+                    <div class="seard-bar">
+                        <input type="search" name="search" />
+                        <div class="search-icon">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                      </div>
+                  </div>
+                <div class="table-headings">
+                  <p>Driver Name</p>
+                  <p>Availability</p>
+                  <p>Assignments</p>
+                  <p>Performance</p>
+                  <p>Actions</p>
+                </div>
+                <div class="table-data">
+                  <div class="table-headings">
+                    <p>Driver Name</p>
+                    <p>Availability</p>
+                    <p>Assignments</p>
+                    <p>Performance</p>
+                    <div class="actions">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </div>
+                  <div class="table-headings">
+                    <p>Driver Name</p>
+                    <p>Availability</p>
+                    <p>Assignments</p>
+                    <p>Performance</p>
+                    <div class="actions">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </div>
+                  <div class="table-headings">
+                    <p>Driver Name</p>
+                    <p>Availability</p>
+                    <p>Assignments</p>
+                    <p>Performance</p>
+                    <div class="actions">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </div>
+                  <div class="table-headings">
+                    <p>Driver Name</p>
+                    <p>Availability</p>
+                    <p>Assignments</p>
+                    <p>Performance</p>
+                    <div class="actions">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </div>
+                  <div class="table-headings">
+                    <p>Driver Name</p>
+                    <p>Availability</p>
+                    <p>Assignments</p>
+                    <p>Performance</p>
+                    <div class="actions">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </div>
+                  <div class="table-headings">
+                    <p>Driver Name</p>
+                    <p>Availability</p>
+                    <p>Assignments</p>
+                    <p>Performance</p>
+                    <div class="actions">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </div>
+                  <div class="table-headings">
+                    <p>Driver Name</p>
+                    <p>Availability</p>
+                    <p>Assignments</p>
+                    <p>Performance</p>
+                    <div class="actions">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </div>
+                  <div class="table-headings">
+                    <p>Driver Name</p>
+                    <p>Availability</p>
+                    <p>Assignments</p>
+                    <p>Performance</p>
+                    <div class="actions">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </div>
+                  <div class="table-headings">
+                    <p>Driver Name</p>
+                    <p>Availability</p>
+                    <p>Assignments</p>
+                    <p>Performance</p>
+                    <div class="actions">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
